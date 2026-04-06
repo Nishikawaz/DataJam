@@ -1,0 +1,19 @@
+team shipping 
+
+Ponele que soy soporte 
+objetivo:
+- Reconstruir la infraestructura, modelar los datos y desarrollar una integracion con servicios externos para rescatar la informacion faltante y dejar el sistema 100% OPERATIVO 
+
+
+Instrucciones: 
+- Motor asignado : SQLite
+- Al sistema le falta la tabla shipping_regions, la tabla solo conservo los codigos de pais
+	- falta la asignacion de la region continental 
+	- falta la zona de envio 
+	- faltan los dias estimados
+- El script debe consultar la API de FIRST Countries 
+	- https://api.first.org/data/v1/countries
+- Asignar una zona logistica
+- Asignar un rango de dias de envio (FIRST devuelve los datos paginados)
+- No adivinar datos, ni modificar CSV a mano 
+- Todo debe fluir desde la API hacia la base relacional mediante codigo
