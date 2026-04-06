@@ -10,7 +10,7 @@ API_URL = "https://api.first.org/data/v1/countries"
 
 def fetch_all_countries():
     all_countries = {}
-    limit = 100
+    limit = 249
     offset = 0
 
     while True:
